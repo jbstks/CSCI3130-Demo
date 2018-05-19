@@ -11,7 +11,7 @@ import android.widget.TextView;
  * @author Joanna Bistekos (B00710704)
  *
  * Followed tutorial at
- * https://developer.android.com/training/basics/firstapp/starting-activity#java
+ * https://developer.android.com/training/basics/firstapp/
  * making modifications where necessary
  */
 public class MainActivity extends AppCompatActivity {
@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Function to be called when the SEND button is pressed by the user
+     * Function to be called when the SEND button is pressed by the user;
+     * Updates textView with the text inputted by the user in the text field
      *
      * @param view the view object that was clicked
      */
     public void sendMessage(View view) {
-        // Updates the value in textView2
         EditText editText = findViewById(R.id.inputField);
         String message = editText.getText().toString();
         TextView textView = findViewById(R.id.textView);
