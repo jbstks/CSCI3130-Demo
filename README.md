@@ -6,4 +6,4 @@ Original code forked from [jmfranz/CSCI3130-Demo](https://github.com/jmfranz/CSC
 
 <img src="after.gif" alt="The application in action" height="480" width="270">
 
-Most of the modifications were completed upon viewing the tutorial under the [Android Developer documentation](https://developer.android.com/training/basics/firstapp/starting-activity#java), where again, modifications were made as necessary to complete the assignment.
+Most of the modifications were completed upon viewing the tutorial under the [Android Developer documentation](https://developer.android.com/training/basics/firstapp/), where again, modifications were made as necessary to complete the assignment.
